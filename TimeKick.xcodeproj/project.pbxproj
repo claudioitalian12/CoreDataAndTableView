@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D18BE492174FEF6007F4D73 /* ReceiveDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D18BE482174FEF6007F4D73 /* ReceiveDataViewController.swift */; };
 		5D6223E321747EAF0018A5E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6223E221747EAF0018A5E5 /* AppDelegate.swift */; };
-		5D6223E521747EAF0018A5E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6223E421747EAF0018A5E5 /* ViewController.swift */; };
+		5D6223E521747EAF0018A5E5 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6223E421747EAF0018A5E5 /* TimerViewController.swift */; };
 		5D6223E821747EB00018A5E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6223E621747EB00018A5E5 /* Main.storyboard */; };
 		5D6223EB21747EB00018A5E5 /* TimeKick.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D6223E921747EB00018A5E5 /* TimeKick.xcdatamodeld */; };
 		5D6223ED21747EB10018A5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6223EC21747EB10018A5E5 /* Assets.xcassets */; };
 		5D6223F021747EB10018A5E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6223EE21747EB10018A5E5 /* LaunchScreen.storyboard */; };
+		5D6223FB217484AF0018A5E5 /* TimerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6223FA217484AF0018A5E5 /* TimerTableViewCell.swift */; };
+		5D6223FD21748E5D0018A5E5 /* ExtensionTimerTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6223FC21748E5D0018A5E5 /* ExtensionTimerTableController.swift */; };
+		5D6223FF2174936D0018A5E5 /* ExtensionAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6223FE2174936D0018A5E5 /* ExtensionAlertViewController.swift */; };
+		5D6224252174E4FB0018A5E5 /* ExtensionDeleteTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6224242174E4FB0018A5E5 /* ExtensionDeleteTimerViewController.swift */; };
+		5D6224292174E58D0018A5E5 /* ExtensionSaveCellTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6224282174E58D0018A5E5 /* ExtensionSaveCellTimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D18BE482174FEF6007F4D73 /* ReceiveDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveDataViewController.swift; sourceTree = "<group>"; };
 		5D6223DF21747EAF0018A5E5 /* TimeKick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeKick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6223E221747EAF0018A5E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D6223E421747EAF0018A5E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D6223E421747EAF0018A5E5 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		5D6223E721747EB00018A5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D6223EA21747EB00018A5E5 /* TimeKick.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeKick.xcdatamodel; sourceTree = "<group>"; };
 		5D6223EC21747EB10018A5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D6223EF21747EB10018A5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D6223F121747EB10018A5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6223FA217484AF0018A5E5 /* TimerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTableViewCell.swift; sourceTree = "<group>"; };
+		5D6223FC21748E5D0018A5E5 /* ExtensionTimerTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTimerTableController.swift; sourceTree = "<group>"; };
+		5D6223FE2174936D0018A5E5 /* ExtensionAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionAlertViewController.swift; sourceTree = "<group>"; };
+		5D6224242174E4FB0018A5E5 /* ExtensionDeleteTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDeleteTimerViewController.swift; sourceTree = "<group>"; };
+		5D6224282174E58D0018A5E5 /* ExtensionSaveCellTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSaveCellTimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,10 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D18BE432174FE7F007F4D73 /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D18BE482174FEF6007F4D73 /* ReceiveDataViewController.swift */,
+			);
+			path = SecondViewController;
+			sourceTree = "<group>";
+		};
 		5D6223D621747EAF0018A5E5 = {
 			isa = PBXGroup;
 			children = (
-				5D6223E121747EAF0018A5E5 /* TimeKick */,
+				5D6223E121747EAF0018A5E5 /* TestCoreData */,
 				5D6223E021747EAF0018A5E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,18 +73,80 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5D6223E121747EAF0018A5E5 /* TimeKick */ = {
+		5D6223E121747EAF0018A5E5 /* TestCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				5D6223F72174807A0018A5E5 /* ViewController */,
+				5D826CA52180A19E00BA919B /* Storyboard */,
 				5D6223E221747EAF0018A5E5 /* AppDelegate.swift */,
-				5D6223E421747EAF0018A5E5 /* ViewController.swift */,
-				5D6223E621747EB00018A5E5 /* Main.storyboard */,
 				5D6223EC21747EB10018A5E5 /* Assets.xcassets */,
-				5D6223EE21747EB10018A5E5 /* LaunchScreen.storyboard */,
 				5D6223F121747EB10018A5E5 /* Info.plist */,
 				5D6223E921747EB00018A5E5 /* TimeKick.xcdatamodeld */,
 			);
-			path = TimeKick;
+			path = TestCoreData;
+			sourceTree = "<group>";
+		};
+		5D6223F72174807A0018A5E5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D826CA02180A08300BA919B /* FirstViewController */,
+				5D18BE432174FE7F007F4D73 /* SecondViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5D826C9F2180A06B00BA919B /* AlertAndSave */ = {
+			isa = PBXGroup;
+			children = (
+				5D6223FE2174936D0018A5E5 /* ExtensionAlertViewController.swift */,
+				5D6224282174E58D0018A5E5 /* ExtensionSaveCellTimerViewController.swift */,
+			);
+			path = AlertAndSave;
+			sourceTree = "<group>";
+		};
+		5D826CA02180A08300BA919B /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D6223E421747EAF0018A5E5 /* TimerViewController.swift */,
+				5D826CA22180A0A400BA919B /* ExtensionViewController */,
+			);
+			path = FirstViewController;
+			sourceTree = "<group>";
+		};
+		5D826CA22180A0A400BA919B /* ExtensionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5D826CA32180A0CD00BA919B /* TableView&Cell */,
+				5D826C9F2180A06B00BA919B /* AlertAndSave */,
+				5D826CA42180A13F00BA919B /* delete */,
+			);
+			path = ExtensionViewController;
+			sourceTree = "<group>";
+		};
+		5D826CA32180A0CD00BA919B /* TableView&Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5D6223FC21748E5D0018A5E5 /* ExtensionTimerTableController.swift */,
+				5D6223FA217484AF0018A5E5 /* TimerTableViewCell.swift */,
+			);
+			path = "TableView&Cell";
+			sourceTree = "<group>";
+		};
+		5D826CA42180A13F00BA919B /* delete */ = {
+			isa = PBXGroup;
+			children = (
+				5D6224242174E4FB0018A5E5 /* ExtensionDeleteTimerViewController.swift */,
+			);
+			path = delete;
+			sourceTree = "<group>";
+		};
+		5D826CA52180A19E00BA919B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5D6223EE21747EB10018A5E5 /* LaunchScreen.storyboard */,
+				5D6223E621747EB00018A5E5 /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +220,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D6223E521747EAF0018A5E5 /* ViewController.swift in Sources */,
+				5D6223E521747EAF0018A5E5 /* TimerViewController.swift in Sources */,
+				5D6224292174E58D0018A5E5 /* ExtensionSaveCellTimerViewController.swift in Sources */,
+				5D6224252174E4FB0018A5E5 /* ExtensionDeleteTimerViewController.swift in Sources */,
+				5D6223FD21748E5D0018A5E5 /* ExtensionTimerTableController.swift in Sources */,
+				5D18BE492174FEF6007F4D73 /* ReceiveDataViewController.swift in Sources */,
 				5D6223E321747EAF0018A5E5 /* AppDelegate.swift in Sources */,
 				5D6223EB21747EB00018A5E5 /* TimeKick.xcdatamodeld in Sources */,
+				5D6223FB217484AF0018A5E5 /* TimerTableViewCell.swift in Sources */,
+				5D6223FF2174936D0018A5E5 /* ExtensionAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
